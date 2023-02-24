@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+ --primary:#2563eb;
+}
+body{
+    font-family: 'Tilt Neon', cursive;
+    min-width: 100vw;
+}
+.container{
+    margin: 4rem,auto,7rem;
+    text-align: center;
+}
+.heading{
+    color:var(--primary);
+}
+.description {
+    font-size: larger;
+    margin: 1rem;
+  }
+  .input-label {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+  }
+.input {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+  }
+  button {
+    background: var(--primary);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+  }
+  #message {
+    display: block;
+    font-size: larger;
+    margin: 1rem 0 0;
+  }
+
+.change-table {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+    border:2px var(--primary)
+  }
+  .change-table caption {
+    margin: 1rem auto;
+    font-size: x-large;
+    font-weight: 500;
+  }
+  th,td {
+  border: 2px solid var(--primary);
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+.footer{
+    padding:2rem;
+    text-align: center;
+    color: black;
+}
+
+.inline{
+    display: inline;
+    padding: 0rem 0rem;
+    align-items: right;
+    
+}
+.link{
+    padding:.5rem 1rem;
+    text-decoration: none;
+
+}
+.footer .link{
+    color: black;
+}
+.padding ul{
+    padding-inline-start: 0px;
+}
+.footer-heading{
+    font-size: larger;
+    font-weight: bolder;
+    color:var(--primary)
+}
